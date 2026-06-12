@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+COMMON_PATH := device/samsung/sm8250-common
+
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
