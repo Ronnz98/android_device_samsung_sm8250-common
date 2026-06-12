@@ -5,6 +5,9 @@ vendor.bluetooth_nv_ver                          u:object_r:vendor_bluetooth_pro
 # GNSS
 vendor.gnss.psds                                 u:object_r:vendor_gnss_psds_prop:s0
 
+# IMS
+vendor.ril.ims.                                  u:object_r:vendor_ims_prop:s0
+
 # NFC
 persist.vendor.nfc.log.index                     u:object_r:vendor_nfc_prop:s0
 ro.vendor.nfc.                                   u:object_r:vendor_sec_nfc_prop:s0
