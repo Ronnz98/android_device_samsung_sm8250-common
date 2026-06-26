@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-COMMON_PATH := device/samsung/sm8250-common
-
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
@@ -58,7 +56,7 @@ PRODUCT_PACKAGES += \
     PhhIms
 
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/privapp-permissions-me.phh.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-me.phh.ims.xml
+    $(LOCAL_PATH/privapp-permissions-me.phh.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-me.phh.ims.xml
 
 # Init files and fstab
 PRODUCT_PACKAGES += \
