@@ -2,6 +2,7 @@ type sehradiomanager, domain;
 type sehradiomanager_exec, exec_type, file_type, vendor_file_type;
 
 init_daemon_domain(sehradiomanager)
+allow sehradiomanager vendor_ims_prop:property_service set;
 
 get_prop(sehradiomanager, vendor_radio_prop)
 get_prop(sehradiomanager, hwservicemanager_prop)
